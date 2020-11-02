@@ -1,0 +1,175 @@
+{
+  "apps": [
+    {
+      "name": "Plex",
+      "url": "https://plex.kussie.com.au",
+      "description": "Watch TV & Movies",
+      "admin": "",
+      "icon": "mdi-plex"
+    },
+    {
+      "name": "Ombi",
+      "url": "https://requests.kussie.com.au",
+      "description": "Plex requests",
+      "admin": "",
+      "icon": "ri-video-add-fill"
+    },
+    {
+      "name": "Ubooquity",
+      "url": "https://ubooquity.kussie.com.au",
+      "description": "Read Books and Comics",
+      "admin": "https://ubooquity-admin.kussie.com.au/admin",
+      "icon": "mdi-library-shelves"
+    },
+    {
+      "name": "Manga",
+      "url": "https://manga.kussie.com.au",
+      "description": "Read manga",
+      "icon": "whh:magazine"
+    },
+    {
+      "name": "Radarr",
+      "url": "https://radarrv3.kussie.com.au",
+      "description": "Manage and acquire movies",
+      "icon": "mdi-filmstrip"
+    },
+    {
+      "name": "Sonarr",
+      "url": "https://sonarr.kussie.com.au",
+      "description": "Manage and acquire TV shows",
+      "icon": "mdi-television-box"
+    },
+    {
+      "name": "Readarr",
+      "url": "https://readarr.kussie.com.au",
+      "description": "Manage and acquire books",
+      "icon": "mdi-book"
+    },
+    {
+      "name": "Bazarr",
+      "url": "https://bazarr.kussie.com.au",
+      "description": "Manage and acquire subtitles",
+      "icon": "whh:subtitles"
+    },
+    {
+      "name": "Mylar",
+      "url": "https://mylar.kussie.com.au",
+      "description": "Manage and acquire comic books",
+      "icon": "mdi-book-open-variant"
+    },
+    {
+      "name": "Calibre",
+      "url": "https://calibre.kussie.com.au",
+      "description": "Manage Book collection",
+      "icon": "si-glyph:bookcase"
+    },
+    {
+      "name": "Homebridge",
+      "url": "https://homebridge.kussie.com.au",
+      "description": "Manage Homebridge",
+      "icon": "mdi-home-automation"
+    },
+    {
+      "name": "Home Assistant",
+      "url": "https://ha.kussie.com.au",
+      "description": "Manage Home Assistant",
+      "icon": "mdi-home-assistant"
+    },
+    {
+      "name": "Tautilli",
+      "url": "https://tautilli.kussie.com.au",
+      "description": "View Plex Stats",
+      "icon": "mdi-television-play"
+    },
+    {
+      "name": "SabNZBd",
+      "url": "https://sab.kussie.com.au",
+      "description": "Manage downloads",
+      "icon": "mdi-cloud-download"
+    },
+    {
+      "name": "qBittorrent",
+      "url": "https://qbittorrent.kussie.com.au/",
+      "description": "Manage torrents",
+      "icon": "mdi-progress-download"
+    },
+    {
+      "name": "YouTube DL",
+      "url": "https://youtubedl.kussie.com.au",
+      "description": "Download YouTube videos",
+      "icon": "mdi-youtube"
+    },
+    {
+      "name": "Hydra",
+      "url": "https://hydra.kussie.com.au",
+      "description": "Manage usenet download sources",
+      "icon": "emojione-monotone:alien-monster"
+    },
+    {
+      "name": "Jackett",
+      "url": "https://jackett.kussie.com.au",
+      "description": "Manage torrent download sources",
+      "icon": "mdi-tshirt-crew-outline"
+    },
+    {
+      "name": "PasteBin",
+      "url": "https://paste.kussie.com.au",
+      "description": "Code dump",
+      "icon": "mdi-content-paste"
+    },
+    {
+      "name": "Server Stats",
+      "url": "https://stats.kussie.com.au",
+      "description": "System Stats",
+      "icon": "mdi-gauge"
+    },
+    {
+      "name": "Smokeping",
+      "url": "https://smokeping.kussie.com.au",
+      "description": "Response times",
+      "icon": "wi:smoke"
+    },
+    {
+      "name": "Portainer",
+      "url": "https://portainer.kussie.com.au",
+      "description": "Manage Docker Boxes",
+      "icon": "mdi-docker"
+    },
+    {
+      "name": "Dynamic DNS",
+      "url": "https://ddns.kussie.com.au",
+      "description": "Manage Dynamic IP",
+      "icon": "clarity-network-globe-line"
+    },
+    {
+      "name": "Pi-hole",
+      "url": "https://pihole.kussie.com.au/admin/",
+      "description": "Manage Pi-Hole ad blocker",
+      "icon": "mdi-do-not-disturb"
+    },
+    {
+      "name": "Cockpit",
+      "url": "https://cockpit.kussie.com.au",
+      "description": "Manage NUC server",
+      "icon": "twemoji:control-knobs"
+    },
+    {
+      "name": "Router",
+      "url": "https://router.kussie.com.au",
+      "description": "Manage Router Settings",
+      "icon": "mdi-router-wireless"
+    },
+    {
+      "name": "QNAP NAS",
+      "url": "https://nas.kussie.com.au",
+      "description": "Manage QNAP NAS",
+      "icon": "mdi-nas"
+    },
+    {
+      "name": "Plex Library",
+      "url": "https://library.kussie.com.au",
+      "description": "View plex library",
+      "icon": "ic:baseline-video-library"
+    }
+  ]
+}

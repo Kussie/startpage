@@ -1,0 +1,96 @@
+<!doctype html>
+<!--
+ * 
+ * Inspired by Evening Startpage https://github.com/TB-96/Evening-Startpage
+ * Inspired by https://github.com/jeroenpardon/sui
+ * Modified and tweaked by Kussie
+ *
+-->
+<html>
+<head>
+  <title>New Tab</title>
+  <meta charset="utf-8"/>
+  
+  <link rel="shortcut icon" href="./assets/icons/fav.png"/>
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css" media="screen, projection"/>
+  <script src="./assets/js/iconify.js" type="text/javascript"></script>
+  <script src="./assets/js/jquery.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.1/handlebars.min.js"></script>
+</head>
+<body>
+  <main id="container" class="fade">
+    <section id="header">
+    	<div id="header-datetime">
+	      <h1 id="header-time">00:00</h1>
+	      <h2 id="header-date">Date</h2>
+	  </div>
+	  <div id="header-weather">
+	  	<div id="container-weather">
+		  	<div id="weather-icon"><img src="./assets/icons/OneDark/unknown.png" /></div>
+		  	<div id="weather-location">Some place over yonder</div>
+		  	<div id="weather-text"><span class="weather-temp">- °c</span><span class="weather-description"></span></div>
+	  	</div>
+	  </div>
+      <div id="header-quote">Thinking</div>
+    </section>
+    <section id="apps">
+      <div id="apps-container">
+        <script type="text/handlebars-template" id="apps-template">
+          <a class="toggle" data-toggleTarget="apps-container"><h3>> Applications</h3></a>
+          <div id="apps-container">
+            {{#apps}}
+            <a class="link apps-item" href="{{url}}">
+              <div class="apps-icon">
+                <span class="iconify icon" data-icon="{{icon}}"></span>
+              </div>
+              <div class="apps-text">
+                <span>{{name}}</span>
+                <span class="description" data-url="{{url}}" data-description="{{description}}">{{description}}</span>
+              </div>
+            </a>
+            {{/apps}}
+          </div>
+        </script>
+      </div>
+    </section>
+    <section id="sites">
+      <div id="sites-container">
+        <script type="text/handlebars-template" id="sites-template">
+          <a class="toggle" data-toggleTarget="sites-container"><h3>> Frequent Websites</h3></a>
+          <div id="sites-container">
+            {{#sites}}
+            <a class="link sites-item" href="https://{{url}}">
+              <div class="sites-icon">
+                <span class="iconify icon" data-icon="{{icon}}"></span>
+              </div>
+              <div class="apps-text">
+                <span>{{name}}</span>
+                <span>{{url}}</span>
+              </div>
+            </a>
+            {{/sites}}
+          </div>
+        </script>
+      </div>
+    </section>
+    <section id="links">
+      <a class="toggle" data-toggleTarget="links-container"><h3>> Bookmarks</h3></a>
+      <div id="links-container">
+      	<script type="text/handlebars-template" id="bookmarks-template">
+	      	{{#bookmarks}}
+	            <div class="links-item">
+	                <h4>{{category}}</h4>
+	                {{#links}}
+	                    <a href="{{url}}" class="link">{{name}}</a>
+	                {{/links}}
+	            </div>
+	        {{/bookmarks}}
+    	</script>
+      </div>
+    </section>
+  </main>
+  <script src="./assets/js/script.js" type="text/javascript"></script>
+  <script src="./assets/js/weather.js"></script>
+</body>
+</html>

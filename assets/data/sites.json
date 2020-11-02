@@ -1,0 +1,44 @@
+{
+  "sites": [
+    {
+      "name": "Mail",
+      "url": "privateemail.com",
+      "icon": "mdi-email"
+    },
+    {
+      "name": "Reddit",
+      "url": "reddit.com",
+      "icon": "mdi-reddit"
+    },
+    {
+      "name": "Gmail",
+      "url": "gmail.com",
+      "icon": "mdi-google"
+    },
+    {
+      "name": "Netflix",
+      "url": "netflix.com",
+      "icon": "mdi-netflix"
+    },
+    {
+      "name": "Github",
+      "url": "github.com",
+      "icon": "mdi-github"
+    },
+    {
+      "name": "Spotify",
+      "url": "spotify.com",
+      "icon": "mdi-spotify"
+    },
+    {
+      "name": "Twitch",
+      "url": "twitch.tv",
+      "icon": "mdi-twitch"
+    },
+    {
+      "name": "Youtube",
+      "url": "youtube.com",
+      "icon": "mdi-youtube"
+    }
+  ]
+}
