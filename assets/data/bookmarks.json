@@ -59,35 +59,6 @@
         ]
       },
       {
-        "category": "Finance",
-        "links": [
-          {
-            "name": "Macquarie",
-            "url": "https://online.macquarie.com.au/personal"
-          },
-          {
-            "name": "Heritage",
-            "url": "https://ib.heritage.com.au"
-          },
-          {
-            "name": "Credit Union Australia",
-            "url": "https://ob.cua.com.au/ib/"
-          },
-          {
-            "name": "Australian Super",
-            "url": "https://portal.australiansuper.com/login.aspx"
-          },
-          {
-            "name": "AfterPay",
-            "url": "https://www.afterpay.com/en-AU/index"
-          },
-          {
-            "name": "Zip",
-            "url": "https://zip.co"
-          }
-        ]
-      },
-      {
         "category": "Other",
         "links": [
           {
@@ -105,15 +76,6 @@
           {
             "name": "Lightning Tracker",
             "url": "https://map.blitzortung.org/#8.39/-27.631/153.226"
-          }
-        ]
-      },
-      {
-        "category": "Administration",
-        "links": [
-          {
-            "name": "Ubooquity",
-            "url": "https://ubooquity-admin.kussie.com.au/admin"
           }
         ]
       }

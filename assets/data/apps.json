@@ -2,172 +2,172 @@
   "apps": [
     {
       "name": "Plex",
-      "url": "https://plex.kussie.com.au",
+      "url": "https://plex.domain.com",
       "description": "Watch TV & Movies",
       "admin": "",
       "icon": "mdi-plex"
     },
     {
       "name": "Ombi",
-      "url": "https://requests.kussie.com.au",
+      "url": "https://requests.domain.com",
       "description": "Plex requests",
       "admin": "",
       "icon": "ri-video-add-fill"
     },
     {
       "name": "Ubooquity",
-      "url": "https://ubooquity.kussie.com.au",
+      "url": "https://ubooquity.domain.com",
       "description": "Read Books and Comics",
-      "admin": "https://ubooquity-admin.kussie.com.au/admin",
+      "admin": "https://ubooquity-admin.domain.com/admin",
       "icon": "mdi-library-shelves"
     },
     {
       "name": "Manga",
-      "url": "https://manga.kussie.com.au",
+      "url": "https://manga.domain.com",
       "description": "Read manga",
       "icon": "whh:magazine"
     },
     {
       "name": "Radarr",
-      "url": "https://radarrv3.kussie.com.au",
+      "url": "https://radarrv3.domain.com",
       "description": "Manage and acquire movies",
       "icon": "mdi-filmstrip"
     },
     {
       "name": "Sonarr",
-      "url": "https://sonarr.kussie.com.au",
+      "url": "https://sonarr.domain.com",
       "description": "Manage and acquire TV shows",
       "icon": "mdi-television-box"
     },
     {
       "name": "Readarr",
-      "url": "https://readarr.kussie.com.au",
+      "url": "https://readarr.domain.com",
       "description": "Manage and acquire books",
       "icon": "mdi-book"
     },
     {
       "name": "Bazarr",
-      "url": "https://bazarr.kussie.com.au",
+      "url": "https://bazarr.domain.com",
       "description": "Manage and acquire subtitles",
       "icon": "whh:subtitles"
     },
     {
       "name": "Mylar",
-      "url": "https://mylar.kussie.com.au",
+      "url": "https://mylar.domain.com",
       "description": "Manage and acquire comic books",
       "icon": "mdi-book-open-variant"
     },
     {
       "name": "Calibre",
-      "url": "https://calibre.kussie.com.au",
+      "url": "https://calibre.domain.com",
       "description": "Manage Book collection",
       "icon": "si-glyph:bookcase"
     },
     {
       "name": "Homebridge",
-      "url": "https://homebridge.kussie.com.au",
+      "url": "https://homebridge.domain.com",
       "description": "Manage Homebridge",
       "icon": "mdi-home-automation"
     },
     {
       "name": "Home Assistant",
-      "url": "https://ha.kussie.com.au",
+      "url": "https://ha.domain.com",
       "description": "Manage Home Assistant",
       "icon": "mdi-home-assistant"
     },
     {
       "name": "Tautilli",
-      "url": "https://tautilli.kussie.com.au",
+      "url": "https://tautilli.domain.com",
       "description": "View Plex Stats",
       "icon": "mdi-television-play"
     },
     {
       "name": "SabNZBd",
-      "url": "https://sab.kussie.com.au",
+      "url": "https://sab.domain.com",
       "description": "Manage downloads",
       "icon": "mdi-cloud-download"
     },
     {
       "name": "qBittorrent",
-      "url": "https://qbittorrent.kussie.com.au/",
+      "url": "https://qbittorrent.domain.com/",
       "description": "Manage torrents",
       "icon": "mdi-progress-download"
     },
     {
       "name": "YouTube DL",
-      "url": "https://youtubedl.kussie.com.au",
+      "url": "https://youtubedl.domain.com",
       "description": "Download YouTube videos",
       "icon": "mdi-youtube"
     },
     {
       "name": "Hydra",
-      "url": "https://hydra.kussie.com.au",
+      "url": "https://hydra.domain.com",
       "description": "Manage usenet download sources",
       "icon": "emojione-monotone:alien-monster"
     },
     {
       "name": "Jackett",
-      "url": "https://jackett.kussie.com.au",
+      "url": "https://jackett.domain.com",
       "description": "Manage torrent download sources",
       "icon": "mdi-tshirt-crew-outline"
     },
     {
       "name": "PasteBin",
-      "url": "https://paste.kussie.com.au",
+      "url": "https://paste.domain.com",
       "description": "Code dump",
       "icon": "mdi-content-paste"
     },
     {
       "name": "Server Stats",
-      "url": "https://stats.kussie.com.au",
+      "url": "https://stats.domain.com",
       "description": "System Stats",
       "icon": "mdi-gauge"
     },
     {
       "name": "Smokeping",
-      "url": "https://smokeping.kussie.com.au",
+      "url": "https://smokeping.domain.com",
       "description": "Response times",
       "icon": "wi:smoke"
     },
     {
       "name": "Portainer",
-      "url": "https://portainer.kussie.com.au",
+      "url": "https://portainer.domain.com",
       "description": "Manage Docker Boxes",
       "icon": "mdi-docker"
     },
     {
       "name": "Dynamic DNS",
-      "url": "https://ddns.kussie.com.au",
+      "url": "https://ddns.domain.com",
       "description": "Manage Dynamic IP",
       "icon": "clarity-network-globe-line"
     },
     {
       "name": "Pi-hole",
-      "url": "https://pihole.kussie.com.au/admin/",
+      "url": "https://pihole.domain.com/admin/",
       "description": "Manage Pi-Hole ad blocker",
       "icon": "mdi-do-not-disturb"
     },
     {
       "name": "Cockpit",
-      "url": "https://cockpit.kussie.com.au",
+      "url": "https://cockpit.domain.com",
       "description": "Manage NUC server",
       "icon": "twemoji:control-knobs"
     },
     {
       "name": "Router",
-      "url": "https://router.kussie.com.au",
+      "url": "https://router.domain.com",
       "description": "Manage Router Settings",
       "icon": "mdi-router-wireless"
     },
     {
       "name": "QNAP NAS",
-      "url": "https://nas.kussie.com.au",
+      "url": "https://nas.domain.com",
       "description": "Manage QNAP NAS",
       "icon": "mdi-nas"
     },
     {
       "name": "Plex Library",
-      "url": "https://library.kussie.com.au",
+      "url": "https://library.domain.com",
       "description": "View plex library",
       "icon": "ic:baseline-video-library"
     }
