@@ -5,171 +5,192 @@
       "url": "https://plex.domain.com",
       "description": "Watch TV & Movies",
       "admin": "",
-      "icon": "mdi-plex"
+      "icon": "mdi-plex",
+      "statusBadge": false
     },
     {
       "name": "Ombi",
       "url": "https://requests.domain.com",
       "description": "Plex requests",
       "admin": "",
-      "icon": "ri-video-add-fill"
+      "icon": "ri-video-add-fill",
+      "statusBadge": true
     },
     {
-      "name": "Ubooquity",
-      "url": "https://ubooquity.domain.com",
-      "description": "Read Books and Comics",
+      "name": "Komga",
+      "url": "https://komga.domain.com",
+      "description": "Read Comics",
       "admin": "https://ubooquity-admin.domain.com/admin",
-      "icon": "mdi-library-shelves"
-    },
-    {
-      "name": "Manga",
-      "url": "https://manga.domain.com",
-      "description": "Read manga",
-      "icon": "whh:magazine"
+      "icon": "mdi-library-shelves",
+      "statusBadge": true
     },
     {
       "name": "Radarr",
-      "url": "https://radarrv3.domain.com",
+      "url": "https://radarr.domain.com",
       "description": "Manage and acquire movies",
-      "icon": "mdi-filmstrip"
+      "icon": "mdi-filmstrip",
+      "statusBadge": true
     },
     {
       "name": "Sonarr",
       "url": "https://sonarr.domain.com",
       "description": "Manage and acquire TV shows",
-      "icon": "mdi-television-box"
+      "icon": "mdi-television-box",
+      "statusBadge": true
     },
     {
       "name": "Readarr",
       "url": "https://readarr.domain.com",
       "description": "Manage and acquire books",
-      "icon": "mdi-book"
+      "icon": "mdi-book",
+      "statusBadge": true
     },
     {
       "name": "Bazarr",
       "url": "https://bazarr.domain.com",
       "description": "Manage and acquire subtitles",
-      "icon": "whh:subtitles"
+      "icon": "whh:subtitles",
+      "statusBadge": true
     },
     {
       "name": "Mylar",
       "url": "https://mylar.domain.com",
       "description": "Manage and acquire comic books",
-      "icon": "mdi-book-open-variant"
+      "icon": "mdi-book-open-variant",
+      "statusBadge": true
     },
     {
       "name": "Calibre",
       "url": "https://calibre.domain.com",
       "description": "Manage Book collection",
-      "icon": "si-glyph:bookcase"
+      "icon": "si-glyph:bookcase",
+      "statusBadge": true
     },
     {
       "name": "Homebridge",
       "url": "https://homebridge.domain.com",
       "description": "Manage Homebridge",
-      "icon": "mdi-home-automation"
+      "icon": "mdi-home-automation",
+      "statusBadge": false
     },
     {
       "name": "Home Assistant",
       "url": "https://ha.domain.com",
       "description": "Manage Home Assistant",
-      "icon": "mdi-home-assistant"
+      "icon": "mdi-home-assistant",
+      "statusBadge": true
     },
     {
       "name": "Tautilli",
       "url": "https://tautilli.domain.com",
       "description": "View Plex Stats",
-      "icon": "mdi-television-play"
+      "icon": "mdi-television-play",
+      "statusBadge": true
     },
     {
       "name": "SabNZBd",
       "url": "https://sab.domain.com",
       "description": "Manage downloads",
-      "icon": "mdi-cloud-download"
+      "icon": "mdi-cloud-download",
+      "statusBadge": true
     },
     {
       "name": "qBittorrent",
       "url": "https://qbittorrent.domain.com/",
       "description": "Manage torrents",
-      "icon": "mdi-progress-download"
+      "icon": "mdi-progress-download",
+      "statusBadge": true
     },
     {
       "name": "YouTube DL",
       "url": "https://youtubedl.domain.com",
       "description": "Download YouTube videos",
-      "icon": "mdi-youtube"
+      "icon": "mdi-youtube",
+      "statusBadge": true
     },
     {
       "name": "Hydra",
       "url": "https://hydra.domain.com",
       "description": "Manage usenet download sources",
-      "icon": "emojione-monotone:alien-monster"
+      "icon": "emojione-monotone:alien-monster",
+      "statusBadge": true
     },
     {
       "name": "Jackett",
       "url": "https://jackett.domain.com",
       "description": "Manage torrent download sources",
-      "icon": "mdi-tshirt-crew-outline"
+      "icon": "mdi-tshirt-crew-outline",
+      "statusBadge": false
     },
     {
       "name": "PasteBin",
       "url": "https://paste.domain.com",
       "description": "Code dump",
-      "icon": "mdi-content-paste"
+      "icon": "mdi-content-paste",
+      "statusBadge": true
     },
     {
       "name": "Server Stats",
       "url": "https://stats.domain.com",
       "description": "System Stats",
-      "icon": "mdi-gauge"
+      "icon": "mdi-gauge",
+      "statusBadge": true
     },
     {
       "name": "Smokeping",
       "url": "https://smokeping.domain.com",
       "description": "Response times",
-      "icon": "wi:smoke"
+      "icon": "wi:smoke",
+      "statusBadge": false
     },
     {
       "name": "Portainer",
       "url": "https://portainer.domain.com",
       "description": "Manage Docker Boxes",
-      "icon": "mdi-docker"
+      "icon": "mdi-docker",
+      "statusBadge": true
     },
     {
       "name": "Dynamic DNS",
       "url": "https://ddns.domain.com",
       "description": "Manage Dynamic IP",
-      "icon": "clarity-network-globe-line"
+      "icon": "clarity-network-globe-line",
+      "statusBadge": true
     },
     {
       "name": "Pi-hole",
       "url": "https://pihole.domain.com/admin/",
       "description": "Manage Pi-Hole ad blocker",
-      "icon": "mdi-do-not-disturb"
+      "icon": "mdi-do-not-disturb",
+      "statusBadge": true
     },
     {
       "name": "Cockpit",
       "url": "https://cockpit.domain.com",
       "description": "Manage NUC server",
-      "icon": "twemoji:control-knobs"
+      "icon": "twemoji:control-knobs",
+      "statusBadge": true
     },
     {
       "name": "Router",
       "url": "https://router.domain.com",
       "description": "Manage Router Settings",
-      "icon": "mdi-router-wireless"
+      "icon": "mdi-router-wireless",
+      "statusBadge": true
     },
     {
-      "name": "QNAP NAS",
+      "name": "NAS",
       "url": "https://nas.domain.com",
-      "description": "Manage QNAP NAS",
-      "icon": "mdi-nas"
+      "description": "Manage NAS",
+      "icon": "mdi-nas",
+      "statusBadge": true
     },
     {
       "name": "Plex Library",
       "url": "https://library.domain.com",
       "description": "View plex library",
-      "icon": "ic:baseline-video-library"
+      "icon": "ic:baseline-video-library",
+      "statusBadge": false
     }
   ]
 }

@@ -10,13 +10,18 @@
 <head>
   <title>New Tab</title>
   <meta charset="utf-8"/>
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="./assets/icons/fav.png"/>
   <link type="text/css" rel="stylesheet" href="./assets/css/style.css" media="screen, projection"/>
+  <link type="text/css" rel="stylesheet" href="./assets/css/status.css" media="screen, projection"/>
   <script src="./assets/js/iconify.js" type="text/javascript"></script>
   <script src="./assets/js/jquery.js" type="text/javascript"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.1/handlebars.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
   <main id="container" class="fade">
@@ -45,7 +50,7 @@
                 <span class="iconify icon" data-icon="{{icon}}"></span>
               </div>
               <div class="apps-text">
-                <span>{{name}}</span>
+                <span>{{#if statusBadge}}<status-indicator class="status-indicator" active pulse></status-indicator> {{/if}}{{name}}</span>
                 <span class="description" data-url="{{url}}" data-description="{{description}}">{{description}}</span>
               </div>
             </a>

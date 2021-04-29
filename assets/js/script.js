@@ -90,3 +90,30 @@ $(document).on("mouseleave", ".apps-item", function (e) {
 });
 
 document.getElementById("container").addEventListener("DOMContentLoaded", startTime());
+
+setTimeout(function () {
+    $('.apps-item').each(function (i) {
+        var link = $(this).attr('href');
+        if ($(this).find('.status-indicator').length) {
+            getStatus(link, $(this));
+        }
+    });
+}, 2000);
+
+function getStatus(url, selector) {
+    $.ajax(url)
+        .done(function (data, xhr, res) {
+            var status = res.status;
+            selector.find('.status-indicator').removeAttr('active').attr('positive', 'positive');
+        })
+        .fail(function (data, xhr, res) {
+            var status = res.status;
+            selector.find('.status-indicator').removeAttr('active').attr('negative', 'negative');
+        })
+        .always(function (data, xhr, res) {
+            var status = res.status;
+            if (status === 200) {
+                selector.find('.status-indicator').removeAttr('active').attr('positive', 'positive');
+            }
+        });
+}
